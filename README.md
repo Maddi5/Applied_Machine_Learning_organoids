@@ -13,7 +13,7 @@ The publicly available Spheroid Light Microscopy Image Atlas (SLIMIA)[1] was use
 Radiomic features were extracted using the PyRadiomics [2] library. Input images were normalized using z-score scaling, and no additional filters were applied. All feature classes were extracted, resulting in 102 features per organoid image.
 
 ## Analysis
-Radiomic features will be employed in Machine Learning algorithms to predict organoid cell line (classification task).
+Radiomic features will be employed in Machine Learning algorithms to predict organoid cell line from brightfield images (classification task).
 
 ## References 
 [1] E. Blondeel, A. Peirsman, S. Vermeulen, and et al. The spheroid light microscopy image atlas for morphometrical analysis of three-dimensional cell cultures. Sci Data, 12(283), 2025.
